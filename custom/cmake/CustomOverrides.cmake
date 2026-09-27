@@ -1,4 +1,4 @@
-set(QGC_MAVLINK_GIT_REPO "https://github.com/<your-account>/mavlink-versor.git" ...)
+set(QGC_MAVLINK_GIT_REPO "https://github.com/claire-sj-jeon/mavlink-versor.git" CACHE STRING "MAVLink repository URL" FORCE)
 set(QGC_MAVLINK_GIT_TAG  "010ba422b43e230a98a284ec88c55d599fdcd837" CACHE STRING "MAVLink repository commit/tag" FORCE)
 set(QGC_MAVLINK_DIALECT  "qgc_versor" CACHE STRING "MAVLink dialect" FORCE)
 
