@@ -1,0 +1,46 @@
+# Qt & build-tool requirements for building this QGroundControl checkout for macOS via homebrew
+
+
+# do everything w/ brew install (and NOT pip or pip3 install):
+        # brew install $(grep -v '^#' requirements-qt.txt | grep -v '^$')
+
+# Then, before every `just configure`/`just build`, confirm nothing's outta sync via:
+        # brew outdated --formula | grep '^qt'   # must print nothing
+
+# and set:
+        # export QT_ROOT_DIR=$(brew --prefix qtbase)
+
+# Qt6 modules QGC's CMakeLists.txt requires (REQUIRED COMPONENTS)
+qtbase
+qtdeclarative
+qtgraphs
+qthttpserver
+qtlocation
+qtmultimedia
+qtpositioning
+qtquick3d
+qtscxml
+qtsensors
+qtsvg
+qtspeech
+qttools
+
+# Qt6 modules QGC's CMakeLists.txt lists as OPTIONAL_COMPONENTS (related to Bluetooth vehicle links, hardware serial radios, etc.)
+qtconnectivity
+qtserialport
+
+
+# build tooling (related to just configure & just build)
+just
+uv
+
+
+
+
+"""
+Optional: only needed if I do ever end up re-enablig video streaming: 
+
+gstreamer
+gst-plugins-base
+gst-plugins-good
+"""
