@@ -1,0 +1,2 @@
+uv # python runner every justfile recipe calls
+rust-just # provides the `just` command

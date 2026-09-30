@@ -37,10 +37,8 @@ uv
 
 
 
-"""
-Optional: only needed if I do ever end up re-enablig video streaming: 
+#Optional: only needed if I do ever end up re-enablig video streaming:
 
-gstreamer
-gst-plugins-base
-gst-plugins-good
-"""
+#gstreamer
+#gst-plugins-base
+#gst-plugins-good
