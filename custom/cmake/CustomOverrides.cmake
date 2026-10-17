@@ -1,5 +1,5 @@
 set(QGC_MAVLINK_GIT_REPO "https://github.com/Bluebird-Aerospace/mavlink-versor.git" CACHE STRING "MAVLink repository URL" FORCE)
-set(QGC_MAVLINK_GIT_TAG  "010ba422b43e230a98a284ec88c55d599fdcd837" CACHE STRING "MAVLink repository commit/tag" FORCE)
+set(QGC_MAVLINK_GIT_TAG  "7b827d5dba0ccf97084b58ac8f0f3b2612364d05" CACHE STRING "MAVLink repository commit/tag" FORCE)
 set(QGC_MAVLINK_DIALECT  "qgc_versor" CACHE STRING "MAVLink dialect" FORCE)
 
 set(QGC_QT_MAXIMUM_VERSION "6.11.2" CACHE STRING "Maximum supported Qt version" FORCE)
